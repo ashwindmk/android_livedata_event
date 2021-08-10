@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oneoff.OneOffFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/add_obs_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="ADD OBSERVER"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/remove_obs_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="REMOVE OBSERVER"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_marginBottom="24dp" />
+
+</LinearLayout>
